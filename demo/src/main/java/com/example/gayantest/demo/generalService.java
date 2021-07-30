@@ -18,10 +18,14 @@ public class generalService {
      else if(reqId.equals("2")){
          name = "Prabhashi";
      }
+     else if(reqId.equals("3")){
+         name = "Prasad";
+     }
      else{
          name = "Invalid User";
      }
      return name;
  }
+
 
 }
